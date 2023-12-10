@@ -6,6 +6,7 @@ function Hero() {
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div class="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
+           
             <h1 class="text-4xl font-medium tracking-tight text-gray-900">
             TradeFi Bot: Unleash the Power of Perpetual Trading
             </h1>
@@ -14,7 +15,7 @@ function Hero() {
             </p>
             <div class="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <a
-                class="inline-flex justify-center rounded-lg border py-[calc(theme(spacing.2)-1px)] px-[calc(theme(spacing.3)-1px)] text-sm outline-2 outline-offset-2 transition-colors border-gray-300 text-gray-700 hover:border-gray-400 active:bg-gray-100 active:text-gray-700/80 text-white bg-black"
+                class="inline-flex items-center justify-center rounded-lg border py-[calc(theme(spacing.2)-1px)] px-[calc(theme(spacing.3)-1px)] text-sm outline-2 outline-offset-2 transition-colors border-gray-300  hover:border-gray-400 active:bg-gray-100 active:text-gray-700/80 text-white bg-[#5e17eb] hover:bg-[#8c52ff]"
                 href="#"
               >
                 <svg
@@ -159,11 +160,8 @@ function Hero() {
                 <img
                   alt="Kwenta"
                   loading="lazy"
-                  width="157"
-                  height="25"
-                  decoding="async"
-                  data-nimg="1"
-                  class="h-8 w-64"
+                 
+                  class="h-8 w-44"
                   src="public/images/kwenta.svg"
                 />
               </li>
@@ -171,11 +169,8 @@ function Hero() {
                 <img
                   alt="Synthetix"
                   loading="lazy"
-                  width="191"
-                  height="11"
-                  decoding="async"
-                  data-nimg="1"
-                  class="h-8 w-64"
+                 
+                  class="h-8 w-44"
                   src="public/images/synthetix.72d7ed58.svg"
                 />
               </li>
@@ -183,11 +178,8 @@ function Hero() {
                 <img
                   alt="Optimism"
                   loading="lazy"
-                  width="150"
-                  height="21"
-                  decoding="async"
-                  data-nimg="1"
-                  class="h-8 w-64"
+                 
+                  class="h-8 w-44"
                   src="public/images/optimism.9bc3f707.svg"
                 />
               </li>
@@ -199,7 +191,7 @@ function Hero() {
                   height="637"
                   decoding="async"
                   data-nimg="1"
-                  class="h-8 w-64"
+                  class="h-8 w-44"
                   src="public/images/arb.svg"
                 />
               </li>
@@ -211,7 +203,7 @@ function Hero() {
                   height="21"
                   decoding="async"
                   data-nimg="1"
-                  class="h-8 w-64"
+                  class="h-8 w-44"
                   src="public/images/gmx.5181dc09.svg"
                 />
               </li>

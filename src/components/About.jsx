@@ -10,12 +10,13 @@ function About() {
       >
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
-            <h2 class="text-3xl font-medium tracking-tight text-white">
-              Every feature you need to trade Perpetuals. Try it for yourself.
+          <h1 className=" text-white text-base">About Us</h1>
+          <div className="bg-[#5e17eb] h-1 w-16"></div>
+            <h2 class="text-3xl font-medium tracking-tight text-white pt-3">
+            TradeFi Bot, a state-of-the-art perpetual trading tool, is designed to revolutionize the way you trade in the crypto market. 
             </h2>
             <p class="mt-2 text-lg text-gray-400">
-              MomentumBot is your companion for investors like you who play by
-              their own rules
+            With our unique blend of features, including token staking and farming, we offer a comprehensive trading solution.
             </p>
           </div>
         </div>
@@ -725,10 +726,10 @@ function About() {
                       y2="237"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#ffffff"></stop>
+                      <stop stop-color="#5e17eb"></stop>
                       <stop
                         offset="1"
-                        stop-color="#ffffff"
+                        stop-color="#5e17eb"
                         stop-opacity="0"
                       ></stop>
                     </linearGradient>
@@ -745,9 +746,9 @@ function About() {
                   ></path>
                 </svg>
               </div>
-              <div class="relative aspect-[366/729] z-10 mx-auto w-full max-w-[366px]">
-                <div class="absolute inset-y-[calc(1/729*100%)] left-[calc(7/729*100%)] right-[calc(5/729*100%)] rounded-[calc(58/366*100%)/calc(58/729*100%)] shadow-2xl"></div>
-                <div class="absolute left-[calc(23/366*100%)] top-[calc(23/729*100%)] grid h-[calc(686/729*100%)] w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-gray-900 pt-[calc(23/318*100%)]">
+              <div class="relative aspect-[1] z-10 mx-auto w-full max-w-[428px]">
+                {/* <div class="absolute inset-y-[calc(1/729*100%)] left-[calc(7/729*100%)] right-[calc(5/729*100%)] rounded-[calc(58/366*100%)/calc(58/729*100%)] shadow-2xl"></div> */}
+                <div class="absolute left-[calc(23/366*100%)] top-[calc(23/729*100%)] grid  w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-gray-900 pt-[calc(23/318*100%)]">
                   <div
                     class="col-start-1 row-start-1 flex focus:outline-offset-[32px] ui-not-focus-visible:outline-none"
                     id="headlessui-tabs-panel-:Rqldaqlla:"
@@ -756,7 +757,7 @@ function About() {
                     data-headlessui-state="selected"
                   >
                     <div class="flex flex-col w-full">
-                      <div class="flex justify-between px-4 pt-4">
+                      {/* <div class="flex justify-between px-4 pt-4">
                         <svg
                           viewBox="0 0 24 24"
                           fill="none"
@@ -790,24 +791,23 @@ function About() {
                          
                           src="public/images/probot.webp"
                         />
-                      </div>
+                      </div> */}
                       <div class="mt-6 px-4 text-white"></div>
-                      <div class="-mt-5 flex-auto rounded-t-2xl bg-white">
+                      <div class=" flex-auto rounded-t-2xl ">
                         <img
                           alt="Market Image"
                           loading="lazy"
-                          width="500"
-                          height="300"
-                          decoding="async"
-                          data-nimg="1"
+                         
+                        
+                     className=""
                           
-                          src="public/images/markets.webp"
+                          src="public/images/market.png"
                         />
                       </div>
                     </div>
                   </div>
                 </div>
-                <svg
+                {/* <svg
                   viewBox="0 0 366 729"
                   aria-hidden="true"
                   class="pointer-events-none absolute inset-0 h-full w-full fill-gray-100"
@@ -836,7 +836,7 @@ function About() {
                   data-nimg="1"
                   class="pointer-events-none absolute inset-0 h-full w-full"
                   src="public/images/phone-frame.svg"
-                />
+                /> */}
               </div>
             </div>
           </div>
