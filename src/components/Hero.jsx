@@ -113,7 +113,7 @@ function Hero() {
                   <img
                     alt="Starting the bot"
                     className=" relative z-50 w-full"
-                    src="public/images/1.png"
+                    src="/images/1.png"
                   />
                 </div>
                 {/* <svg
