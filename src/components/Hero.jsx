@@ -162,7 +162,7 @@ function Hero() {
                   loading="lazy"
                  
                   class="h-8 w-44"
-                  src="public/images/kwenta.svg"
+                  src=" /images/kwenta.svg"
                 />
               </li>
               <li class="flex">
@@ -171,7 +171,7 @@ function Hero() {
                   loading="lazy"
                  
                   class="h-8 w-44"
-                  src="public/images/synthetix.72d7ed58.svg"
+                  src=" /images/synthetix.72d7ed58.svg"
                 />
               </li>
               <li class="flex">
@@ -180,7 +180,7 @@ function Hero() {
                   loading="lazy"
                  
                   class="h-8 w-44"
-                  src="public/images/optimism.9bc3f707.svg"
+                  src=" /images/optimism.9bc3f707.svg"
                 />
               </li>
               <li class="flex">
@@ -192,7 +192,7 @@ function Hero() {
                   decoding="async"
                   data-nimg="1"
                   class="h-8 w-44"
-                  src="public/images/arb.svg"
+                  src=" /images/arb.svg"
                 />
               </li>
               <li class="flex">
@@ -204,7 +204,7 @@ function Hero() {
                   decoding="async"
                   data-nimg="1"
                   class="h-8 w-44"
-                  src="public/images/gmx.5181dc09.svg"
+                  src=" /images/gmx.5181dc09.svg"
                 />
               </li>
             </ul>
