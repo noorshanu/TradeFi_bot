@@ -2,16 +2,15 @@ import React from "react";
 
 function Hero() {
   return (
-    <div class="overflow-hidden py-20 sm:py-32 lg:pb-32 xl:pb-36">
+    <div class="overflow-hidden py-20 sm:pb-32 sm:pt-56 lg:pb-32 xl:pb-36">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div class="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h1 class="text-4xl font-medium tracking-tight text-gray-900">
-              Ultimate Perp Trading Bot
+            TradeFi Bot: Unleash the Power of Perpetual Trading
             </h1>
             <p class="mt-6 text-lg text-gray-600">
-              Harness the power of perpetual and options trading with our bot:
-              swift, secure, and straightforward.
+            Experience the next level of crypto trading with advanced features like token staking, farming, and exclusive launchpad access.
             </p>
             <div class="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <a
@@ -62,10 +61,10 @@ function Hero() {
                     y2="1025"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#171717"></stop>
+                    <stop stop-color="#5e17eb"></stop>
                     <stop
                       offset="1"
-                      stop-color="#171717"
+                      stop-color="#5e17eb"
                       stop-opacity="0"
                     ></stop>
                   </linearGradient>
@@ -96,10 +95,10 @@ function Hero() {
                     y2="913"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#171717"></stop>
+                    <stop stop-color="#5e17eb"></stop>
                     <stop
                       offset="1"
-                      stop-color="#171717"
+                      stop-color="#5e17eb"
                       stop-opacity="0"
                     ></stop>
                   </linearGradient>
@@ -107,20 +106,16 @@ function Hero() {
               </svg>
             </div>
             <div class="-mx-4 h-[448px] px-9 [mask-image:linear-gradient(to_bottom,white_60%,transparent)] sm:mx-0 lg:absolute lg:-inset-x-10 lg:-bottom-20 lg:-top-10 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32">
-              <div class="relative aspect-[366/729] mx-auto max-w-[366px]">
-                <div class="absolute inset-y-[calc(1/729*100%)] left-[calc(7/729*100%)] right-[calc(5/729*100%)] rounded-[calc(58/366*100%)/calc(58/729*100%)] shadow-2xl"></div>
-                <div class="absolute left-[calc(23/366*100%)] top-[calc(23/729*100%)] grid h-[calc(686/729*100%)] w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-gray-900 pt-[calc(8/318*100%)]">
+              <div class="relative aspect-[366/729] mx-auto max-w-[566px]">
+                <div class="absolute inset-y-[calc(1/729*100%)] left-[calc(7/729*100%)] right-[calc(5/729*100%)] rounded-[calc(58/366*100%)/calc(58/729*100%)] "></div>
+                <div class="absolute left-[calc(23/366*100%)] top-[calc(23/729*100%)] grid h-[calc(686/729*100%)] w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden  pt-[calc(8/318*100%)]">
                   <img
                     alt="Starting the bot"
-                    loading="lazy"
-                    width="886"
-                    height="1920"
-                    decoding="async"
-                    data-nimg="1"
-                    src="public/images/openPosition.gif"
+                    className=" relative z-50 w-full"
+                    src="public/images/1.png"
                   />
                 </div>
-                <svg
+                {/* <svg
                   viewBox="0 0 366 729"
                   aria-hidden="true"
                   class="pointer-events-none absolute inset-0 h-full w-full fill-gray-100"
@@ -139,16 +134,15 @@ function Hero() {
                     rx="2.5"
                     fill="#D4D4D4"
                   ></rect>
-                </svg>
+                </svg> */}
                 <img
                   alt=""
-                  fetchPriority="high"
-                  width="366"
-                  height="729"
-                  decoding="async"
-                  data-nimg="1"
-                  class="pointer-events-none absolute inset-0 h-full w-full"
-                  src="public/images/phone-frame.svg"
+            
+              
+                  className=" relative z-30"
+                 
+                  class="pointer-events-none absolute  w-full floating"
+                  src="public/images/2.png"
                 />
               </div>
             </div>
@@ -182,7 +176,7 @@ function Hero() {
                   decoding="async"
                   data-nimg="1"
                   class="h-8 w-64"
-                  src="/_next/static/media/synthetix.72d7ed58.svg"
+                  src="public/images/synthetix.72d7ed58.svg"
                 />
               </li>
               <li class="flex">
@@ -194,7 +188,7 @@ function Hero() {
                   decoding="async"
                   data-nimg="1"
                   class="h-8 w-64"
-                  src="/_next/static/media/optimism.9bc3f707.svg"
+                  src="public/images/optimism.9bc3f707.svg"
                 />
               </li>
               <li class="flex">
@@ -218,7 +212,7 @@ function Hero() {
                   decoding="async"
                   data-nimg="1"
                   class="h-8 w-64"
-                  src="/_next/static/media/gmx.5181dc09.svg"
+                  src="public/images/gmx.5181dc09.svg"
                 />
               </li>
             </ul>

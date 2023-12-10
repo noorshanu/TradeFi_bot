@@ -1,75 +1,100 @@
-import React, { useState } from 'react';
+import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { BiLogoTelegram } from "react-icons/bi";
+import { FaInstagram } from "react-icons/fa";
+import { useState } from "react";
+import { MdClose } from "react-icons/md";
+import { twMerge } from "tailwind-merge";
 
-function Navbar() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+export default function Navbar() {
+  const [isSidebarOpen, setSidebarVisibility] = useState(false);
 
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
+  const closeSidebar = () => setSidebarVisibility(false);
+  const openSidebar = () => setSidebarVisibility(true);
 
   return (
-    <>
-      <header>
-        <nav className="bg-gray-800">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-50 flex justify-between py-4">
-            <div className="flex items-center">
-              <a aria-label="Home" className="text-white" href="/">
-                MomentumBot
-              </a>
-            </div>
-            <div className="lg:hidden">
-              <button
-                onClick={toggleMobileMenu}
-                className="text-gray-200 focus:outline-none"
-                aria-label="Toggle site navigation"
+    <nav className="h-navbar-height bg-white fixed top-0 left-0 w-full z-[1000]">
+      <header className=" bg-white relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="container-wrapper h-[72px] flex items-center justify-between">
+          <a href="/">
+            {/* <img
+              src="/images/logo.png"
+              alt=""
+              width="150px"
+              height="28px"
+              className="cursor-pointer"
+            /> */}
+            TradeFi Bot
+          </a>
+
+          <button
+            onClick={isSidebarOpen ? closeSidebar : openSidebar}
+            className="flex lg:hidden text-black text-3xl"
+          >
+            {isSidebarOpen ? <MdClose /> : <AiOutlineMenu />}
+          </button>
+
+          <aside
+            className={twMerge(
+              "max-lg:fixed bottom-0 right-0 max-lg:w-[320px] max-lg:h-[calc(100vh-72px)] max-lg:bg-text  flex flex-col lg:flex-row lg:items-center lg:space-x-10 max-lg:text-white lg:[&>*]:text-black/60 [&>*]:tracking-[1px] max-lg:p-5 max-lg:[&>a]:py-2 max-lg:[&>a]:border-b max-lg:[&>a]:px-3 max-lg:[&>a]:mb-2 max-lg:[&>a]:uppercase transition-all duration-200 translate-x-[320px] lg:translate-x-0 z-[1000] max-lg:overflow-y-auto",
+              isSidebarOpen ? "translate-x-0" : null
+            )}
+          >
+            
+        
+            <a
+            onClick={closeSidebar}
+              class="relative -mx-3 -my-2 rounded-lg px-2 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-0"
+              href="/#"
+            >
+              <span class="relative z-10">Docs</span>
+            </a>
+            <a
+            onClick={closeSidebar}
+              class="relative -mx-3 -my-2 rounded-lg px-2 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-0"
+              href="/#"
+            >
+              <span class="relative z-10">Pitchdeck</span>
+            </a>
+            <a
+            onClick={closeSidebar}
+              class="relative -mx-3 -my-2 rounded-lg px-2 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-0"
+              href="/#features"
+            >
+              <span class="relative z-10">Features</span>
+            </a>
+            <a
+            onClick={closeSidebar}
+              class="relative -mx-3 -my-2 rounded-lg px-2 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-0"
+              href="/#token"
+            >
+              <span class="relative z-10">Tokenomics</span>
+            </a>
+            <a
+            onClick={closeSidebar}
+              class="relative -mx-3 -my-2 rounded-lg px-2 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-0"
+              href="/#faqs"
+            >
+              <span class="relative z-10">FAQs</span>
+            </a>
+
+            <div className="flex justify-start items-center gap-6 py-5">
+              <a href="/"
+               
+                className="  font-inter text-base sm:text-xl"
               >
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="h-6 w-6"
-                >
-                  <path d="M3 12h18M3 6h18M3 18h18"></path>
-                </svg>
-              </button>
+              < FaInstagram />
+              </a>
+              <a href="/" className="  font-inter text-base sm:text-xl"><BiLogoTelegram/></a>
+              <a href="/"  className="  font-inter text-base sm:text-xl"><AiOutlineTwitter/></a>
             </div>
-            <div className={`lg:flex lg:items-center ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
-              <div className="lg:flex lg:gap-6">
-                <a href="/#" className="text-gray-200 hover:text-white">
-                  Docs
-                </a>
-                <a href="/#" className="text-gray-200 hover:text-white">
-                  Pitchdeck
-                </a>
-                <a href="/#features" className="text-gray-200 hover:text-white">
-                  Features
-                </a>
-                <a href="/#token" className="text-gray-200 hover:text-white">
-                  Tokenomics
-                </a>
-                <a href="/#faqs" className="text-gray-200 hover:text-white">
-                  FAQs
-                </a>
-              </div>
-              <div className="flex items-center gap-6">
-                <a href="https://twitter.com/momentumbotx" target="_blank" rel="noopener noreferrer" className="text-gray-200 hover:text-white">
-                  <span className="sr-only">Twitter</span>
-                  {/* Add Twitter icon or image */}
-                </a>
-                <a href="https://t.me/momentumbotchat" target="_blank" rel="noopener noreferrer" className="text-gray-200 hover:text-white">
-                  <span className="sr-only">Telegram</span>
-                  {/* Add Telegram icon or image */}
-                </a>
-              </div>
-            </div>
-          </div>
-        </nav>
+
+            {/* <Button className="rounded-md text-sm h-10 mt-4 mb-6 lg:hidden">
+              {t("Buy ETHETF Token")}
+            </Button> */}
+          </aside>
+        </div>
       </header>
-    </>
+    </nav>
   );
 }
-
-export default Navbar;
