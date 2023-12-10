@@ -789,7 +789,7 @@ function About() {
                           data-nimg="1"
                           class="h-8 w-8 flex-none"
                          
-                          src="public/images/probot.webp"
+                          src="  /images/probot.webp"
                         />
                       </div> */}
                       <div class="mt-6 px-4 text-white"></div>
@@ -801,7 +801,7 @@ function About() {
                         
                      className=""
                           
-                          src="public/images/market.png"
+                          src="  /images/market.png"
                         />
                       </div>
                     </div>
@@ -835,7 +835,7 @@ function About() {
                   decoding="async"
                   data-nimg="1"
                   class="pointer-events-none absolute inset-0 h-full w-full"
-                  src="public/images/phone-frame.svg"
+                  src="  /images/phone-frame.svg"
                 /> */}
               </div>
             </div>
