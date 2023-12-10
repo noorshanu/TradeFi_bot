@@ -16,7 +16,7 @@ export default function Navbar() {
     <nav className="h-navbar-height bg-white fixed top-0 left-0 w-full z-[1000]">
       <header className=" bg-white relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="container-wrapper h-[72px] flex items-center justify-between">
-          <a href="/">
+          <a href="/" className=" font-semibold">
             {/* <img
               src="/images/logo.png"
               alt=""
