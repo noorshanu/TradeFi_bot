@@ -143,7 +143,7 @@ function Hero() {
                   className=" relative z-30"
                  
                   class="pointer-events-none absolute  w-full floating"
-                  src="public/images/2.png"
+                  src="/images/2.png"
                 />
               </div>
             </div>
