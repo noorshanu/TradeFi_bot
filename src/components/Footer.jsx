@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <footer class="border-t border-gray-200">
+      <footer class="border-t border-gray-200 mt-4 sm:mt-10 ">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="flex flex-col items-start justify-between gap-y-12 pb-6 pt-16 lg:flex-row lg:items-center lg:py-16">
                         <div>
@@ -37,7 +37,7 @@ function Footer() {
                                 <svg viewBox="0 0 96 96" fill="none" aria-hidden="true" class="absolute inset-0 h-full w-full stroke-gray-300 transition-colors group-hover:stroke-gray-500">
                                     <path d="M1 17V9a8 8 0 0 1 8-8h8M95 17V9a8 8 0 0 0-8-8h-8M1 79v8a8 8 0 0 0 8 8h8M95 79v8a8 8 0 0 1-8 8h-8" stroke-width="2" stroke-linecap="round"></path>
                                 </svg>
-                                <img alt="" loading="lazy" width="80" height="80" decoding="async" data-nimg="1" src="/_next/static/media/qr-code.9c4a9a95.svg"/>
+                                <img alt="" loading="lazy" width="80" height="80" decoding="async" data-nimg="1" src="/images/qrcode.svg"/>
                             </div>
                             <div class="ml-8 lg:w-64">
                                 <p class="text-base font-semibold text-gray-900">

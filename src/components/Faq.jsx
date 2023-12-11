@@ -45,13 +45,14 @@ function Faq() {
         class="border-t border-gray-200 py-20 sm:py-32"
       >
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div class="mx-auto  lg:mx-0">
+          <div class="mx-auto  lg:mx-0 mb-6  sm:mb-10">
             <h2
               id="faqs-title"
               class="text-3xl text-center font-medium tracking-tight text-gray-900"
             >
               Frequently asked questions
             </h2>
+            <div className="bg-[#5e17eb] h-1 w-[85px] sm:w-[150px] mt-4 mx-auto"></div>
           </div>
           <div>
             {faqData.map((item, index) => (
