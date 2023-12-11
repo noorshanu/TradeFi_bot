@@ -1,5 +1,7 @@
 import React from 'react'
-
+import { AiOutlineTwitter } from "react-icons/ai";
+import { BiLogoTelegram } from "react-icons/bi";
+import { FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
     <>
@@ -52,13 +54,17 @@ function Footer() {
                     </div>
                     <div class="flex flex-col items-center border-t border-gray-200 pb-12 pt-8 md:flex-row-reverse md:justify-between md:pt-6">
                         <form class="flex w-full justify-center md:w-auto">
-                            <div class="w-60 min-w-0 shrink">
-                                <input id=":S5:" type="email" aria-label="Email address" placeholder="Email address" autoComplete="email" required="" class="block w-full appearance-none rounded-lg border border-gray-200 bg-white py-[calc(theme(spacing.2)-1px)] px-[calc(theme(spacing.3)-1px)] text-gray-900 placeholder:text-gray-400 focus:border-cyan-500 focus:outline-none focus:ring-cyan-500 sm:text-sm"/>
-                            </div>
-                            <button class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors bg-gray-800 text-white hover:bg-gray-900 active:bg-gray-800 active:text-white/80 ml-4 flex-none" type="submit">
-                                <span class="hidden lg:inline">Join our newsletter</span>
-                                <span class="lg:hidden">Join newsletter</span>
-                            </button>
+                          
+                            <div className="flex justify-start items-center gap-6 py-5">
+              <a href="/"
+               
+                className="  font-inter text-base sm:text-xl"
+              >
+              < FaInstagram />
+              </a>
+              <a href="/" className="  font-inter text-base sm:text-xl"><BiLogoTelegram/></a>
+              <a href="/"  className="  font-inter text-base sm:text-xl"><AiOutlineTwitter/></a>
+            </div>
                         </form>
                         <p class="mt-6 text-sm text-gray-500 md:mt-0">© TradeFiBot Copyright 
                          
