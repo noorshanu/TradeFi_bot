@@ -19,7 +19,7 @@ function Cta() {
                     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
                         <div class="mx-auto max-w-md sm:text-center">
                             <h2 class="text-3xl font-medium tracking-tight text-white sm:text-4xl">Experience the Sleek experience</h2>
-                            <p class="mt-4 text-lg text-gray-300">Welcome to the Crypto Leverage Trading Telegram Bot, your go-to partner in the world of cryptocurrency leveraged trading. Whether you &#x27;re an experienced trader or new to this dynamic arena, our bot offers real-time data, tools, and insights to empower your trading choices.</p>
+                            <p class="mt-4 text-lg text-gray-300">Join the future of crypto trading today. Sign up for TradeFi Bot and start trading smarter.</p>
                             <div class="mt-8 flex justify-center">
                                 <a aria-label="Download Telegram" class="rounded-lg transition-colors inline-flex items-center gap-x-2 px-3.5 py-2.5 text-md font-semibold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-white text-gray-900 hover:bg-gray-50" href="https://t.me/momentumbotchat">
                                     <svg viewBox="0 0 50 50" aria-hidden="true" class="h-6">
