@@ -6,7 +6,7 @@ function About() {
       <section
         id="features"
         aria-label="Features for investing all your money"
-        class="bg-gray-900 py-20 sm:py-32"
+        class="bg-[#280f5b] py-20 sm:py-32"
       >
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl">
@@ -764,13 +764,10 @@ function About() {
                 </svg>
               </div>
               <div class="relative aspect-[1] z-10 mx-auto w-full max-w-[428px]">
-                <div class="absolute left-[calc(23/366*100%)] top-[calc(23/729*100%)] grid  w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-gray-900 pt-[calc(23/318*100%)]">
+                <div class="absolute left-[calc(23/366*100%)] top-[calc(23/729*100%)] grid  w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden pt-[calc(23/318*100%)]">
                   <div
                     class="col-start-1 row-start-1 flex focus:outline-offset-[32px] ui-not-focus-visible:outline-none"
-                    id="headlessui-tabs-panel-:Rqldaqlla:"
-                    role="tabpanel"
-                    tabindex="0"
-                    data-headlessui-state="selected"
+                   
                   >
                     <div class="flex flex-col w-full">
                       <div class="mt-6 px-4 text-white"></div>

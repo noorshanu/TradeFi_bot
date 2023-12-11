@@ -4,7 +4,7 @@ function Token() {
   return (
    <>
 
-                <div class="bg-gray-900 py-24 sm:py-32" id="token">
+                <div class="bg-[#280f5b] py-24 sm:py-32" id="token">
                     <div class="mx-auto max-w-7xl px-6 lg:px-8">
                         <div class="mx-auto max-w-2xl lg:text-center">
                             <h2 class="text-base font-semibold leading-7 text-indigo-400">Tokenomics</h2>
