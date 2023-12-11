@@ -5,6 +5,7 @@ import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Token from "./components/Token"
+import Cta from './components/Cta'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 <About2/>
 <Token/>
 <Faq/>
+<Cta/>
 <Footer/>
 
      </main>

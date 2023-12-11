@@ -10,7 +10,7 @@ function Footer() {
                             <div class="flex items-center text-gray-900">
                                
                                 <div class="ml-4">
-                                    <p class="text-base font-semibold">MomentumBot</p>
+                                    <p class="text-base font-semibold">TradeFi Bot</p>
                                     <p class="mt-1 text-sm">Ultimate Perp Trading Bot</p>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@ function Footer() {
                                 <p class="text-base font-semibold text-gray-900">
                                     <a href="#">
                                         <span class="absolute inset-0 sm:rounded-2xl"></span>
-                                        Set up the MomentumBot
+                                        Set up the    TradeFi Bot
                                     </a>
                                 </p>
                                 <p class="mt-1 text-sm text-gray-700">Coming soon..</p>
@@ -60,7 +60,7 @@ function Footer() {
                                 <span class="lg:hidden">Join newsletter</span>
                             </button>
                         </form>
-                        <p class="mt-6 text-sm text-gray-500 md:mt-0">© ProBot Copyright 
+                        <p class="mt-6 text-sm text-gray-500 md:mt-0">© TradeFiBot Copyright 
                          
                         2023
                          
