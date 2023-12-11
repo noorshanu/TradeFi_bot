@@ -3,17 +3,7 @@ import React from 'react'
 function Token() {
   return (
    <>
-    <div class="bg-gray-900 py-24 sm:py-32" id="token">
-                    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                        <div class="mx-auto max-w-2xl lg:text-center">
-                            <h2 class="text-base font-semibold leading-7 text-indigo-400">Competitor analysis</h2>
-                            <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Take a look at, how we stand better than others in the Industry!</p>
-                            <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-                                <img alt="Competitor analysis" loading="lazy" width="1190" height="812" decoding="async" data-nimg="1"   src="/_next/static/media/comp.8c24f2f3.png"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="bg-gray-900 py-24 sm:py-32" id="token">
                     <div class="mx-auto max-w-7xl px-6 lg:px-8">
                         <div class="mx-auto max-w-2xl lg:text-center">

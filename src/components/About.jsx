@@ -9,7 +9,7 @@ function About() {
         class="bg-gray-900 py-20 sm:py-32"
       >
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
+          <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl">
             <h1 className=" text-white text-base">About Us</h1>
             <div className="bg-[#5e17eb] h-1 w-16"></div>
             <h2 class="text-3xl font-medium tracking-tight text-white pt-3">
