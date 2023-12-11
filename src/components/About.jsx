@@ -10,13 +10,15 @@ function About() {
       >
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
-          <h1 className=" text-white text-base">About Us</h1>
-          <div className="bg-[#5e17eb] h-1 w-16"></div>
+            <h1 className=" text-white text-base">About Us</h1>
+            <div className="bg-[#5e17eb] h-1 w-16"></div>
             <h2 class="text-3xl font-medium tracking-tight text-white pt-3">
-            TradeFi Bot, a state-of-the-art perpetual trading tool, is designed to revolutionize the way you trade in the crypto market. 
+              TradeFi Bot, a state-of-the-art perpetual trading tool, is
+              designed to revolutionize the way you trade in the crypto market.
             </h2>
             <p class="mt-2 text-lg text-gray-400">
-            With our unique blend of features, including token staking and farming, we offer a comprehensive trading solution.
+              With our unique blend of features, including token staking and
+              farming, we offer a comprehensive trading solution.
             </p>
           </div>
         </div>
@@ -545,13 +547,19 @@ function About() {
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 hidden md:mt-20 md:block">
           <button type="button" aria-hidden="true"></button>
           <div class="grid grid-cols-12 items-center gap-8 lg:gap-16 xl:gap-24">
+          <Tab.Group>
+          
+         
+     
             <div
               class="relative z-10 order-last col-span-6 space-y-6"
               role="tablist"
               aria-orientation="vertical"
             >
+              <Tab.List>
+               <Tab className='ui-selected:bg-gray-800 ui-selected:inset-0 ui-selected:border-none ui-selected:outline-none ui-selected:rounded-md '>
               <div class="relative rounded-2xl transition-colors hover:bg-gray-800/30">
-                <div class="absolute inset-0 bg-gray-800"></div>
+                <div class="absolute inset-0 "></div>
                 <div class="relative z-10 p-8">
                   <svg viewBox="0 0 32 32" aria-hidden="true" class="h-8 w-8">
                     <circle
@@ -595,6 +603,9 @@ function About() {
                   </p>
                 </div>
               </div>
+              </Tab>
+
+             <Tab  className='ui-selected:bg-gray-800 ui-selected:inset-0 ui-selected:border-none ui-selected:outline-none ui-selected:rounded-md '>
               <div class="relative rounded-2xl transition-colors hover:bg-gray-800/30">
                 <div class="relative z-10 p-8">
                   <svg
@@ -665,6 +676,8 @@ function About() {
                   </p>
                 </div>
               </div>
+              </Tab>
+              <Tab  className='ui-selected:bg-gray-800 ui-selected:inset-0 ui-selected:border-none ui-selected:outline-none ui-selected:rounded-md '>
               <div class="relative rounded-2xl transition-colors hover:bg-gray-800/30">
                 <div class="relative z-10 p-8">
                   <svg viewBox="0 0 32 32" aria-hidden="true" class="h-8 w-8">
@@ -706,7 +719,11 @@ function About() {
                   </p>
                 </div>
               </div>
+              </Tab>
+              </Tab.List>
             </div>
+          
+   
             <div class="relative col-span-6">
               <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
                 <svg
@@ -747,7 +764,6 @@ function About() {
                 </svg>
               </div>
               <div class="relative aspect-[1] z-10 mx-auto w-full max-w-[428px]">
-                {/* <div class="absolute inset-y-[calc(1/729*100%)] left-[calc(7/729*100%)] right-[calc(5/729*100%)] rounded-[calc(58/366*100%)/calc(58/729*100%)] shadow-2xl"></div> */}
                 <div class="absolute left-[calc(23/366*100%)] top-[calc(23/729*100%)] grid  w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-gray-900 pt-[calc(23/318*100%)]">
                   <div
                     class="col-start-1 row-start-1 flex focus:outline-offset-[32px] ui-not-focus-visible:outline-none"
@@ -757,104 +773,41 @@ function About() {
                     data-headlessui-state="selected"
                   >
                     <div class="flex flex-col w-full">
-                      {/* <div class="flex justify-between px-4 pt-4">
-                        <svg
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          aria-hidden="true"
-                          class="h-6 w-6 flex-none"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M15.75 19.5L8.25 12l7.5-7.5"
-                            stroke="#fff"
-                            stroke-width="2"
-                          ></path>
-                        </svg>
-                        <div class="text-center h-6 flex-none -mt-1">
-                          <p class="text-sm font-bold text-gray-100 leading-normal">
-                            ProBot
-                          </p>
-                          <p class="text-xs font-medium text-gray-500 leading-tight">
-                            bot
-                          </p>
-                        </div>
-                        <img
-                          alt="Starting the bot"
-                          loading="lazy"
-                          width="32"
-                          height="32"
-                          decoding="async"
-                          data-nimg="1"
-                          class="h-8 w-8 flex-none"
-                         
-                          src="  /images/probot.webp"
-                        />
-                      </div> */}
                       <div class="mt-6 px-4 text-white"></div>
                       <div class=" flex-auto rounded-t-2xl ">
-                        <img
+                      <Tab.Panels>
+
+                      <Tab.Panel> <img
                           alt="Market Image"
                           loading="lazy"
-                         
-                        
-                     className=""
-                          
+                          className=""
                           src="  /images/market.png"
-                        />
+                        /> </Tab.Panel>
+
+<Tab.Panel> <img
+                          alt="Market Image"
+                          loading="lazy"
+                          className=""
+                          src="  /images/2.png"
+                        /> </Tab.Panel>
+                      
+                      </Tab.Panels>
+                     
                       </div>
                     </div>
                   </div>
                 </div>
-                {/* <svg
-                  viewBox="0 0 366 729"
-                  aria-hidden="true"
-                  class="pointer-events-none absolute inset-0 h-full w-full fill-gray-100"
-                >
-                  <path
-                    fill="#F2F2F2"
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M300.092 1c41.22 0 63.223 21.99 63.223 63.213V184.94c-.173.184-.329.476-.458.851.188-.282.404-.547.647-.791.844-.073 2.496.257 2.496 2.157V268.719c-.406 2.023-2.605 2.023-2.605 2.023a7.119 7.119 0 0 1-.08-.102v394.462c0 41.213-22.001 63.212-63.223 63.212h-95.074c-.881-.468-2.474-.795-4.323-.838l-33.704-.005-.049.001h-.231l-.141-.001c-2.028 0-3.798.339-4.745.843H66.751c-41.223 0-63.223-21.995-63.223-63.208V287.739c-.402-.024-2.165-.23-2.524-2.02v-.973A2.039 2.039 0 0 1 1 284.62v-47.611c0-.042.001-.084.004-.126v-.726c0-1.9 1.652-2.23 2.496-2.157l.028.028v-16.289c-.402-.024-2.165-.23-2.524-2.02v-.973A2.039 2.039 0 0 1 1 214.62v-47.611c0-.042.001-.084.004-.126v-.726c0-1.9 1.652-2.23 2.496-2.157l.028.028v-26.041a2.26 2.26 0 0 0 .093-.236l-.064-.01a3.337 3.337 0 0 1-.72-.12l-.166-.028A2 2 0 0 1 1 135.62v-24.611a2 2 0 0 1 1.671-1.973l.857-.143v-44.68C3.528 22.99 25.53 1 66.75 1h233.341ZM3.952 234.516a5.481 5.481 0 0 0-.229-.278c.082.071.159.163.228.278Zm89.99-206.304A4.213 4.213 0 0 0 89.727 24H56.864C38.714 24 24 38.708 24 56.852v618.296C24 693.292 38.714 708 56.864 708h250.272c18.15 0 32.864-14.708 32.864-32.852V56.852C340 38.708 325.286 24 307.136 24h-32.864a4.212 4.212 0 0 0-4.213 4.212v2.527c0 10.235-8.3 18.532-18.539 18.532H112.48c-10.239 0-18.539-8.297-18.539-18.532v-2.527Z"
-                  ></path>
-                  <rect
-                    x="154"
-                    y="29"
-                    width="56"
-                    height="5"
-                    rx="2.5"
-                    fill="#D4D4D4"
-                  ></rect>
-                </svg>
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="366"
-                  height="729"
-                  decoding="async"
-                  data-nimg="1"
-                  class="pointer-events-none absolute inset-0 h-full w-full"
-                  src="  /images/phone-frame.svg"
-                /> */}
               </div>
             </div>
+            </Tab.Group>
           </div>
         </div>
       </section>
 
-      <Tab.Group>
-      <Tab.List>
-        <Tab>Tab 1</Tab>
-        <Tab>Tab 2</Tab>
-        <Tab>Tab 3</Tab>
-      </Tab.List>
-      <Tab.Panels>
-        <Tab.Panel>Content 1</Tab.Panel>
-        <Tab.Panel>Content 2</Tab.Panel>
-        <Tab.Panel>Content 3</Tab.Panel>
-      </Tab.Panels>
-    </Tab.Group>
+   
+       
+       
+     
     </>
   );
 }
