@@ -17,6 +17,21 @@ body{
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
+
+.swiper-button-next , .swiper-button-prev{
+  color: #fff;
+  font-size: 12px;
+  background: #000;
+  border-radius: 100%;
+  padding: 20px;
+ 
+}
+.swiper-button-next::after{
+  font-size: 12px;
+}
+.swiper-button-prev::after{
+  font-size: 12px;
+}
 @keyframes floating {
   0% {
     transform: translate(0, 0px);
