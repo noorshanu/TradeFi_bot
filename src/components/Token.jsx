@@ -17,7 +17,7 @@ function Token() {
                                     <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">Token breakdown</dt>
                                     <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-300">
                                         <p class="flex-auto">
-                                            <img alt="token" loading="lazy" width="732" height="570" decoding="async" data-nimg="1"   src="/_next/static/media/token.005119c3.png"/>
+                                            <img alt="token" loading="lazy" width="732" height="570" decoding="async" data-nimg="1"   src="/images/token.png" className=' rounded-lg'/>
                                         </p>
                                     </dd>
                                 </div>
