@@ -3,7 +3,7 @@ import React from 'react'
 function Cta() {
   return (
     <>
-     <section id="get-free-shares-today" class="relative overflow-hidden bg-[#280f5b] py-20 sm:py-32 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 rounded-2xl">
+     <section id="get-free-shares-today" class="relative overflow-hidden bg-[#280f5b] py-20 sm:py-32 mx-auto max-w-md sm:max-w-7xl px-4 sm:px-6 lg:px-8 rounded-2xl">
                     <div class="absolute left-20 top-1/2 -translate-y-1/2 sm:left-1/2 sm:-translate-x-1/2">
                         <svg viewBox="0 0 558 558" width="448" height="448" fill="none" aria-hidden="true" class="animate-spin-slower">
                             <defs>
