@@ -8,7 +8,7 @@ function Token() {
                     <div class="mx-auto max-w-7xl px-6 lg:px-8">
                         <div class="mx-auto max-w-2xl lg:text-center">
                             <h2 class="text-base font-semibold leading-7 text-indigo-400">Tokenomics</h2>
-                            <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">$MOMENTUM</p>
+                            <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">$Tradefi</p>
                             <p class="mt-6 text-lg leading-8 text-gray-300">Token breakdown, value proposition for both token holders and liquidity providers</p>
                         </div>
                         <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

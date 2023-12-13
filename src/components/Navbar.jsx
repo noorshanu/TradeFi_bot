@@ -40,53 +40,56 @@ export default function Navbar() {
               isSidebarOpen ? "translate-x-0" : null
             )}
           >
-            
-        
             <a
-            onClick={closeSidebar}
+              onClick={closeSidebar}
               class="relative -mx-3 -my-2 rounded-lg px-2 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-0"
               href="/#"
             >
-              <span class="relative z-10">Docs</span>
+              <span class="relative z-10">Home</span>
             </a>
             <a
-            onClick={closeSidebar}
+              onClick={closeSidebar}
               class="relative -mx-3 -my-2 rounded-lg px-2 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-0"
               href="/#"
-            >
-              <span class="relative z-10">Pitchdeck</span>
-            </a>
-            <a
-            onClick={closeSidebar}
-              class="relative -mx-3 -my-2 rounded-lg px-2 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-0"
-              href="/#features"
             >
               <span class="relative z-10">Features</span>
             </a>
             <a
-            onClick={closeSidebar}
+              onClick={closeSidebar}
               class="relative -mx-3 -my-2 rounded-lg px-2 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-0"
               href="/#token"
             >
               <span class="relative z-10">Tokenomics</span>
             </a>
+
             <a
-            onClick={closeSidebar}
+              onClick={closeSidebar}
               class="relative -mx-3 -my-2 rounded-lg px-2 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-0"
               href="/#faqs"
             >
               <span class="relative z-10">FAQs</span>
             </a>
+            
+            <a
+              onClick={closeSidebar}
+              class="relative -mx-3 -my-2 rounded-lg px-2 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-0"
+              href="/#features"
+            >
+              <span class="relative z-10">Pitchdeck </span>
+            </a>
+       
+        
 
             <div className="flex justify-start items-center gap-6 py-5">
-              <a href="/"
-               
-                className="  font-inter text-base sm:text-xl"
-              >
-              < FaInstagram />
+              <a href="/" className="  font-inter text-base sm:text-xl">
+                <FaInstagram />
               </a>
-              <a href="/" className="  font-inter text-base sm:text-xl"><BiLogoTelegram/></a>
-              <a href="/"  className="  font-inter text-base sm:text-xl"><AiOutlineTwitter/></a>
+              <a href="/" className="  font-inter text-base sm:text-xl">
+                <BiLogoTelegram />
+              </a>
+              <a href="/" className="  font-inter text-base sm:text-xl">
+                <AiOutlineTwitter />
+              </a>
             </div>
 
             {/* <Button className="rounded-md text-sm h-10 mt-4 mb-6 lg:hidden">
